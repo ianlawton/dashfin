@@ -1,0 +1,61 @@
+{
+  "src/lib/components/DashWebsocket.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashWebsocket",
+    "methods": [
+      {
+        "name": "setupListeners",
+        "docblock": "Sets up the related fdc3 listeners once fdc3 is available.",
+        "modifiers": [],
+        "params": [],
+        "returns": null,
+        "description": "Sets up the related fdc3 listeners once fdc3 is available."
+      },
+      {
+        "name": "contextHandler",
+        "docblock": "Handler for setting the context.\n@param ctx The FDC3 context.",
+        "modifiers": [],
+        "params": [
+          {
+            "name": "ctx",
+            "description": "The FDC3 context.",
+            "type": null,
+            "optional": false
+          }
+        ],
+        "returns": null,
+        "description": "Handler for setting the context."
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "msg": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The websocket response message."
+      },
+      "url": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The url for websocket."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
