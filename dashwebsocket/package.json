@@ -20,7 +20,7 @@
     "build:backends-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:backends)",
     "build": "npm run build:js && npm run build:backends",
     "build:activated": "npm run build:js && npm run build:backends-activated"
-  },
+  }, 
   "author": "Ian Lawton <ian@eebster.co>",
   "license": "MIT",
   "dependencies": {
